@@ -1,3 +1,2 @@
-1. Actor one
-2. Actress one
-3. Actor two
+2. Your favorite actress
+3. Another favorite
