@@ -1,3 +1,3 @@
-1. Your favorite actor
-2. Your favorite actress
-3. Another favorite
+1. Real actor name
+2. Real actress name
+3. Another real favorite
