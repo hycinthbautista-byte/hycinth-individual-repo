@@ -1,0 +1,21 @@
+Session 10: Undoing Changes and Recovering Lost Work
+
+1. Choose the correct undo command
+   git restore --staged app.js  (unstage a file, keep its edits)
+   git restore app.js  (discard edits in the working folder)
+   git revert HEAD  (safe undo of a shared commit)
+
+2. git revert versus git reset
+   git revert HEAD  (makes a new commit that reverses the old one)
+   git reset --soft HEAD~1  (moves the branch back, keeps changes)
+   git reset --hard HEAD~1  (moves the branch back, DISCARDS work)
+
+3. Recover using reflog
+   git reflog  (shows recent HEAD movements)
+   git show abc1234  (inspect a commit)
+   git branch recovered abc1234  (save the lost commit in a branch)
+
+4. Safe recovery checklist
+   git status
+   git log --oneline
+   git branch backup-before-reset  (backup before any reset)
