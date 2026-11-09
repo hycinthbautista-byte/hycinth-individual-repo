@@ -1,2 +1,2 @@
-git clone https://github.com/YOUR-USERNAME/yourname-individual-repo.git
-cd hycinth-individual-repo
+# Hycinth Individual Repo
+My favorite foods, movies, actors, mobile apps, and hobbies.
